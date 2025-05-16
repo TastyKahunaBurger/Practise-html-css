@@ -32,6 +32,88 @@ body {
     padding: 0.5%;
     margin: 0.5%;
 }
+.subtitle-span {
+    font-size: larger;
+}
+.main-content {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.about-content {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.about-paragraph {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.website-links-container {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.website-links-heading {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.website-links {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.website-links a {
+    
+}
+.cheeky {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.services-content {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.services-list-container {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+    align-items: center;
+}
+.services-list-container ul {
+    list-style: none;
+    padding: 0.5%;
+    margin: 0.5%;
+    justify-content: center;
+    display: center;
+    text-align: center;
+    border: 2px solid black;
+}
+.services-list-container li {
+    display: inline;
+    border: 2px solid black;
+    padding: 0.5%;
+    margin: 0.5%;
+}
+.contact-content {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.contact-paragraph {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
+.footer-content {
+    padding: 0.5%;
+    margin: 0.5%;
+    border: 2px solid black;
+}
 h2 {
     text-align: center;
     justify-content: center;
@@ -59,8 +141,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    transition: color 1s;
-    color: rgb(245, 174, 88);
 }
 nav {
     
@@ -87,5 +167,7 @@ nav a {
     color: rgb(44, 64, 97);
 }
 nav a:hover {
-    z-index: 2000;
+    text-decoration: underline;
+    transition: color 0.7s;
+    color: rgb(245, 174, 88);
 }
