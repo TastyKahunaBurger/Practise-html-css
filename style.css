@@ -1,21 +1,20 @@
 body {
     background-color: rgb(245, 174, 88);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 .header-content {
-    position: absolute;
-    padding: 18%;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
 }
 .header-title {
     text-align: center;
-    justify-content: center;
     color: rgb(245, 174, 88);
     font-size: 10rem;
-    margin: 0;
-    padding: 0;
     text-decoration: underline;
+    margin: 0;
 }
 .header {
     background-image: url(sunset.jpeg);
@@ -29,28 +28,53 @@ body {
     color: rgb(245, 174, 88);
     text-align: center;
     font-size: 2rem;
-    padding: 0.5%;
-    margin: 0.5%;
+    margin: 0;
 }
 .subtitle-span {
     font-size: larger;
 }
 .main-content {
-    padding: 0.5%;
-    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
     border: 2px solid black;
 }
 .about-content {
+    display: flex;
+    flex-direction: column;
     padding: 0.5%;
     margin: 0.5%;
-    border: 2px solid black;
+    align-content: space-around;
+    background-color: rgba(249, 108, 22, 0.5);
+    border-radius: 20px;
+    box-shadow: 3px 3px rgb(44, 64, 97);
+}
+.about-title {
+    display: flex;
+    justify-content: center;
+    padding: 0.5%;
+    margin: 0.5%;
+    text-decoration: underline;
+    font-size: 6rem;
+    color: rgb(44, 64, 97);
 }
 .about-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     padding: 0.5%;
     margin: 0.5%;
-    border: 2px solid black;
+    line-height: 2;
+    font-size: 3rem;
 }
+.about-paragraph span {
+    display: flex;
+    justify-content: center;
+}
+
 .website-links-container {
+    display: flex;
     padding: 0.5%;
     margin: 0.5%;
     border: 2px solid black;
@@ -66,7 +90,7 @@ body {
     border: 2px solid black;
 }
 .website-links a {
-    
+
 }
 .cheeky {
     padding: 0.5%;
@@ -114,15 +138,7 @@ body {
     margin: 0.5%;
     border: 2px solid black;
 }
-h2 {
-    text-align: center;
-    justify-content: center;
-    color: rgb(44, 64, 97);
-    font-size: 4rem;
-    margin: 0;
-    padding: 0;
-    text-decoration: underline;
-}
+
 p {
     color: rgb(44, 64, 97);
     text-align: center;
@@ -155,7 +171,7 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 0;
     margin: 0.5%;
 }
