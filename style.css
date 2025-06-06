@@ -69,9 +69,12 @@ nav a {
     margin: 0.5%;
     border: none;
     background-color: rgb(245, 174, 88);
+    color: rgb(44, 64, 97);
+    text-decoration: none;
 }
 nav a:hover {
     text-decoration: underline;
+    transition: 0.5s;
 }
 
 
@@ -247,6 +250,36 @@ address {
 .contact-header {
     font-size: 6rem;
     color: rgb(44, 64, 97);
+}
+form {
+    text-align: center;
+}
+label {
+    color: rgb(44, 64, 97);
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.first-name input, .last-name input, .notes input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 3px solid rgb(44, 64, 97);
+    color: rgb(44, 64, 97);
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.submit input {
+    background-color: rgb(86, 124, 169);
+    color: rgb(44, 64, 97);
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+.submit input:hover {
+    color: rgb(245, 174, 88);
+    transition:  0.5s;
+    text-decoration: underline;
+    box-shadow: 2px 3px rgb(44, 64, 97);
 }
 .contact-paragraph {
     align-items: baseline;
