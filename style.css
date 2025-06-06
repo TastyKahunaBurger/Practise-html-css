@@ -1,10 +1,10 @@
 body {
-    background-color: rgba(249, 221, 22, 0.5);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     z-index: 0;
     padding: 0;
 }
 .main-content {
+    background-color: rgba(249, 221, 22, 0.5);
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -39,7 +39,6 @@ div {
     padding: 0.5%;
     margin: 0.5%;
     border-radius: 20px;
-    box-shadow: 3px 3px rgb(44, 64, 97);
 }
 
 /* Navigation Styles */
@@ -123,12 +122,14 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     background-color: rgba(249, 108, 22, 0.5);
+    box-shadow: 3px 3px rgb(44, 64, 97);
 }
 .about-content:hover {
     box-shadow: 9px 9px rgb(44, 64, 97);
 }
 .about-title {
     font-size: 6rem;
+    color: rgb(44, 64, 97);
 }
 .about-paragraph {
     flex-wrap: wrap;
@@ -148,13 +149,15 @@ nav a:hover {
     flex-direction: column;
     align-content: center;
     background-color: rgba(249, 108, 22, 0.5);
+    box-shadow: 3px 3px rgb(44, 64, 97);
 }
 .website-links-container:hover {
     box-shadow: 9px 9px rgb(44, 64, 97);
 }
-.website-links-heading {
+.website-links-heading h2 {
     font-size: 4rem;
     box-shadow: none;
+    color: rgb(44, 64, 97);
 }
 .website-links {
     display: flex;
@@ -163,6 +166,8 @@ nav a:hover {
 }
 .website-links a {
     font-size: 3rem;
+    color: rgb(44, 64, 97);
+    text-decoration: none;
 }
 .website-links a:hover {
     color: rgb(245, 174, 88);
@@ -178,13 +183,15 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     background-color: rgba(249, 108, 22, 0.5);
+    box-shadow: 3px 3px rgb(44, 64, 97);
 }
 .services-content:hover {
     box-shadow: 9px 9px rgb(44, 64, 97);
 }
-.services-header {
+.services-header h2 {
     font-size: 4rem;
     box-shadow: none;
+    color: rgb(44, 64, 97);
 }
 .services-list-container {
     display: flex;
@@ -224,6 +231,7 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     background-color: rgba(249, 108, 22, 0.5);
+    box-shadow: 3px 3px rgb(44, 64, 97);
 }
 .contact-content:hover {
     box-shadow: 9px 9px rgb(44, 64, 97);
@@ -238,10 +246,15 @@ address {
 }
 .contact-header {
     font-size: 6rem;
+    color: rgb(44, 64, 97);
 }
 .contact-paragraph {
     align-items: baseline;
     font-size: 3rem;
+}
+.contact-paragraph a {
+    color: rgb(44, 64, 97);
+    text-decoration: none;
 }
 .contact-paragraph a:hover {
     text-decoration: underline;
@@ -263,6 +276,7 @@ footer {
     align-items: baseline;
     background-color: rgba(249, 108, 22, 0.5);
     margin-bottom: 0;
+    box-shadow: 3px 3px rgb(44, 64, 97);
 }
 .footer-content:hover {
     box-shadow: 9px 9px rgb(44, 64, 97);
@@ -275,6 +289,8 @@ footer {
     padding: 0.5%;
     margin: 0.5%;
     font-size: 1.5rem;
+    color: rgb(44, 64, 97);
+    text-decoration: none;
 }
 .footer-content a:hover {
     text-decoration: underline;
